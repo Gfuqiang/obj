@@ -1,0 +1,12 @@
+i,2
+am,2
+fuqiang,1
+this,1
+is,1
+a,1
+book,1
+do,1
+you,1
+like,1
+it,1
+licao,1
