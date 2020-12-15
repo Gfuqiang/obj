@@ -20,4 +20,4 @@ if __name__ == '__main__':
     # d = re(my_func)
     # result = d(1)
     result = my_func(1)
-    print(result)
+    print(f'result: {result}')

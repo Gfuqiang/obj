@@ -1,11 +1,15 @@
 import multiprocessing
-import os
+import os, time
+import random
 
 
 def create_file(content):
-
+    print(os.getpid())
+    sleep_time = random.randint(5, 10)
+    print(sleep_time)
+    time.sleep(sleep_time)
     with open('1.txt', 'a') as f:
-        f.write("子进程号[%s]拿到文件光标位置>>%s\n" % (os.getppid(), f.tell()))
+        f.write("子进程号[%s]拿到文件光标位置>>%s\n" % (os.getpid(), f.tell()))
     return content
 
 
@@ -24,6 +28,18 @@ if __name__ == '__main__':
     # # [process.join() for process in process_list]
     # print(f'main the end')
     pool = multiprocessing.Pool(multiprocessing.cpu_count())
-    for result in pool.imap(create_file, ['11111111111111', '222222', '33333', '555555', '666666']):
-        print(result)
+    list_data = [(i, i+1) for i in range(10)]
+    print(list_data)
+    for result in pool.imap_unordered(create_file, list_data):
+        pass
+    time.sleep(1)
+    print('*' * 10)
+    time.sleep(1)
+    print('*' * 10)
+    time.sleep(1)
+    print('*' * 10)
+    time.sleep(1)
+    print('*' * 10)
+    time.sleep(1)
+    print('*' * 10)
 
