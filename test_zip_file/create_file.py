@@ -7,6 +7,8 @@ def create_file_func(file_name, size):
 
 
 def main(file_num):
+    if not os.path.exists('./file_dir'):
+        os.mkdir('./file_dir')
     for i in range(file_num):
         create_file_func(f'./file_dir/{i}.txt', 100)
 

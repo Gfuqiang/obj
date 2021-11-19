@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:30:59
+## 摇钱树
+MyMoneyTree1='AsfEwHsJN7fKsE-Sk69L-MAdoUJQ3Dik'
+MyMoneyTree2='B2JYB84I3ymV84eMb5tiwQ'
+MyMoneyTree3=''
+
+ForOtherMoneyTree1="${MyMoneyTree2}@${MyMoneyTree3}"
+ForOtherMoneyTree2="${MyMoneyTree3}@${MyMoneyTree1}"
+ForOtherMoneyTree3="${MyMoneyTree1}@${MyMoneyTree2}"

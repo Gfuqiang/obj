@@ -31,6 +31,7 @@ def zip_file(zip_file_name, file_dir_name):
     pool = create_process_pool()
     file_list = os.listdir(file_dir_name)
     cpu_num = multiprocessing.cpu_count()
+    print(f'cpu count: {cpu_num}')
     # 按cpu count切分file list
     parameter_list = []
 

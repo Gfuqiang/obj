@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:30:25
+## 闪购盲盒
+MySgmh1='T0225KkcRBoQo1bWdk7ykfYLdgCjVQmoaT5kRrbA'
+MySgmh2='T0156LgyGU9HolLVJhsCjVQmoaT5kRrbA'
+MySgmh3='T0116LwkFxgb81UCjVQmoaT5kRrbA'
+
+ForOtherSgmh1="${MySgmh2}@${MySgmh3}"
+ForOtherSgmh2="${MySgmh3}@${MySgmh1}"
+ForOtherSgmh3="${MySgmh1}@${MySgmh2}"

@@ -1,5 +1,8 @@
 import zipfile
 
 if __name__ == '__main__':
-    zipfile_info = zipfile.ZipInfo('./zip_dir/test.zip')
-    print(zipfile_info)
+    with zipfile.ZipFile('./zip_dir/test.zip') as z:
+        z.infolist()
+
+    print(zipfile.ZipFile('./zip_dir/test.zip').infolist())
+

@@ -1,0 +1,24 @@
+"""
+k8s version
+    1. 选择tag打包代码，build镜像，push image to Ali.
+    网络通路：
+    2. 部署端拉取代码
+
+    内外网路异常：
+    2. 上传压缩包
+
+docker-compose
+    1. 选择tag，直接拉取代码，重启项目
+
+
+1. 获取项目tag
+2. 触发打包机制（如何触发？？？），打包并push到阿里镜像云
+3. 上传压缩包进行更新
+4. 脚本重启容器后代码还能正常运行吗
+"""
+
+问题：
+    打包指定tag：
+    1.使用python还是shell
+    2.Python调用shell如何知道脚本运行完成
+    3. 要有3个按钮，reef，cedar，coral的。
