@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:29:07
+## 京东种豆得豆
+MyBean1='e7lhibzb3zek26bfqczp37w4atyph6yu7tt6aiy'
+MyBean2='vihbcbm6khscl7e5fmofumd4oa'
+MyBean3='k2i62r2ppodrp6r4n3r6englti'
+
+ForOtherBean1="${MyBean2}@${MyBean3}"
+ForOtherBean2="${MyBean3}@${MyBean1}"
+ForOtherBean3="${MyBean1}@${MyBean2}"

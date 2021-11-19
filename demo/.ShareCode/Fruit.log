@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:28:48
+## 东东农场
+MyFruit1='b5404a3264314c22ab808f50ec271b91'
+MyFruit2='1a2b8dc7cff147d79c0919ee7ae49288'
+MyFruit3='f6faa12ca56645f78fdcbfea399372b8'
+
+ForOtherFruit1="${MyFruit2}@${MyFruit3}"
+ForOtherFruit2="${MyFruit3}@${MyFruit1}"
+ForOtherFruit3="${MyFruit1}@${MyFruit2}"

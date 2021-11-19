@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:30:14
+## 签到领现金
+MyCash1='eU9YaOi7MP4npzrTznIS1A'
+MyCash2='dV52Nb3sMfok928'
+MyCash3='dVpgO-qwYP0'
+
+ForOtherCash1="${MyCash2}@${MyCash3}"
+ForOtherCash2="${MyCash3}@${MyCash1}"
+ForOtherCash3="${MyCash1}@${MyCash2}"

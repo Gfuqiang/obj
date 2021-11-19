@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:29:25
+## 东东工厂
+MyJdFactory1='T0225KkcRBoQo1bWdk7ykfYLdgCjVWnYaS5kRrbA'
+MyJdFactory2='T0156LgyGU9HolLVJhsCjVWnYaS5kRrbA'
+MyJdFactory3=''
+
+ForOtherJdFactory1="${MyJdFactory2}@${MyJdFactory3}"
+ForOtherJdFactory2="${MyJdFactory3}@${MyJdFactory1}"
+ForOtherJdFactory3="${MyJdFactory1}@${MyJdFactory2}"

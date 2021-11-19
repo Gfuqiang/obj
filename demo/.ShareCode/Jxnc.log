@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:29:53
+## 京喜农场
+MyJxnc1='{"smp":"b459cb6fbdc2e079ff7e153c9ef7de02","active":"jdnc_1_3yuanguifeimang210616_2","joinnum":1}'
+MyJxnc2='{"smp":"6fe001222f09e84dc8424a5cecaa627b","active":"jdnc_1_3yuanyoutao210616_2","joinnum":1}'
+MyJxnc3=''
+
+ForOtherJxnc1="${MyJxnc2}@${MyJxnc3}"
+ForOtherJxnc2="${MyJxnc3}@${MyJxnc1}"
+ForOtherJxnc3="${MyJxnc1}@${MyJxnc2}"

@@ -11,9 +11,11 @@ def create_lock():
     return lock
 
 
+lock = Lock()
+
+
 @func_time_watch
 def run_zip(file_path):
-    lock = create_lock()
     print(f'lock id: {id(lock)}')
     lock.acquire()
     print(f'process id: {os.getpid()}, {file_path}')

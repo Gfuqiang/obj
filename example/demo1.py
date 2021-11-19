@@ -1,31 +1,17 @@
-import threading
-import time
+def func1():
+    try:
+        1/ 0
+    except Exception as e:
+        raise FileNotFoundError(f'{e}: 111')
+    return 1
 
-
-def test1():
-    time.sleep(1)
-    print(f'function run: {test1.__name__}')
-
-
-def test2():
-    time.sleep(5)
-    print(f'function run: {test2.__name__}')
-
-
-def main():
-    print(f'thread num: {threading.enumerate()}')
-    t1 = threading.Thread(target=test1)
-    t2 = threading.Thread(target=test2)
-    t1.start()
-    t2.start()
-
-    while True:
-        thread_num = len(threading.enumerate())
-        print(f'线程数量是：{thread_num}')
-        if thread_num <= 1:
-            break
-        time.sleep(1)
+def func2():
+    try:
+        e = func1()
+        print(e)
+    except Exception as e:
+        print(e)
 
 
 if __name__ == '__main__':
-    main()
+    func2()

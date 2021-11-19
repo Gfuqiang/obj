@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:30:45
+## 东东健康社区
+MyHealth1='T0225KkcRBoQo1bWdk7ykfYLdgCjVfnoaW5kRrbA'
+MyHealth2='T0156LgyGU9HolLVJhsCjVfnoaW5kRrbA'
+MyHealth3='T0116LwkFxgb81UCjVfnoaW5kRrbA'
+
+ForOtherHealth1="${MyHealth2}@${MyHealth3}"
+ForOtherHealth2="${MyHealth3}@${MyHealth1}"
+ForOtherHealth3="${MyHealth1}@${MyHealth2}"

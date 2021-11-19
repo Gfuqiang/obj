@@ -1,0 +1,9 @@
+## 上次导入时间：2021年09月30日 10:30:05
+## 口袋书店
+MyBookShop1='0d3efdb3786f4009b9c7bb22edbfe229'
+MyBookShop2='0d3efdb3786f4009b9c7bb22edbfe229'
+MyBookShop3=''
+
+ForOtherBookShop1="${MyBookShop2}@${MyBookShop3}"
+ForOtherBookShop2="${MyBookShop3}@${MyBookShop1}"
+ForOtherBookShop3="${MyBookShop1}@${MyBookShop2}"
