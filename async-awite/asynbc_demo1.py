@@ -2,18 +2,36 @@ import asyncio
 import time
 
 
+class SingletonClass:
+
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(cls, "_singleton"):
+            setattr(cls, "_singleton", cls)
+        return cls._singleton
+
+    def __init__(self):
+        self.a = 1
+
+
 async def computer(x, y):
 
     # result = await computer_subtraction(4,3)
     # print(result)
-    await asyncio.sleep(8.0)
+
     print(f'computer count')
+    singleton = SingletonClass()
+    print(id(singleton))
+    await asyncio.sleep(2.0)
     return x + y
+
 
 async def computer_subtraction(x, y):
 
-    await asyncio.sleep(5.0)
+
     print(f'computer subtraction')
+    singleton = SingletonClass()
+    print(id(singleton))
+    await asyncio.sleep(2.0)
     return x - y
 
 

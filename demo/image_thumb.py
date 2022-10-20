@@ -8,7 +8,7 @@ from pathlib import Path, PurePath
 if __name__ == '__main__':
     # p1 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     # p2 = Path(p1 + os.sep + 'demo' + os.sep + 'test.py')
-    # # demo = os.path.join(p2, 'demo', 'demo1.py')
+    # # demo = os.path.join(p2, 'demo', 'list_cut.py')
     # print(p2.exists())
     # print(p2.is_file())
     # print(p2.unlink())

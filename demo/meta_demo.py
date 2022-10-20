@@ -6,10 +6,12 @@ class MyABC(ABC):
 
 
 MyABC.register(tuple)
-assert issubclass(tuple, MyABC)
-assert isinstance((), MyABC)
+assert issubclass(tuple, MyABC), (f'upple error')
+# assert isinstance([], MyABC), (f'set error')
 
-for B in MyABC.__mro__:
-    print(B.__dict__)
+# for B in MyABC.__mro__:
+#     print(B.__dict__)
+
+print(ABC.__dict__)
 
 

@@ -23,7 +23,7 @@ async def main():
     print('await task2')
 
 
-
 if __name__ == '__main__':
+    # python 3.7 才有run方法
     asyncio.run(main())
 

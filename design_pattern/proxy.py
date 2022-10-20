@@ -1,5 +1,8 @@
 """
-代理模式
+代理模式:
+1. 虚拟代理，将一个对象的初始化延迟到真正需要使用时进行，下边例子调用resource时才修改_resource属性。
+2. 保护/防护代理，用于对处理敏感信息的对象进行访问控制
+    将要保护的对象定义为代理的属性，调用代理来进行逻辑判断（校验信息等）起到保护作用
 """
 
 
@@ -8,6 +11,8 @@ class LazyProperty:
     def __init__(self, method):
         self.method = method
         self.method_name = method.__name__
+        print(f"method: {self.method}")
+        print(f"method_name: {self.method_name}")
 
     def __get__(self, instance, owner):
         """
@@ -42,10 +47,12 @@ class Test:
 
 
 if __name__ == '__main__':
+
     t = Test(1, 2)
     print(t.x)
     print(t.y)
     print(f't.__dict__: {t.__dict__}')
+    print('*' * 50)
     print(t.resource)
     print(f't.__dict__: {t.__dict__}')
     print(t.resource)   # 第二次调用resource不会调用__get__ 方法。
