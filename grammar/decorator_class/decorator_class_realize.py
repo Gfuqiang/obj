@@ -31,6 +31,6 @@ def execute_func1():
 
 
 if __name__ == '__main__':
-    # print(execute_func)
-    # print(execute_func1)
+
+    print(execute_func1)
     print(1)

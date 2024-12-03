@@ -18,17 +18,6 @@ complete_process = subprocess.run(
 )
 print(complete_process)
 
-# start_time = "2022-05-28"
-# end_time = "2022-06-12"
-#
-# start_time = datetime.datetime.strptime(start_time, '%Y-%m-%d')
-# end_time = datetime.datetime.strptime(end_time, '%Y-%m-%d')
-#
-# res_time = end_time - start_time
-# for i in range(res_time.days):
-#     start_time = start_time + datetime.timedelta(days=1)
-#     print(datetime.datetime.strftime(start_time, '%Y-%m-%d'))
-
 
 
 

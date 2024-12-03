@@ -23,14 +23,14 @@ class ImplementParentSuperClass:
 
     def __new__(cls, *args, **kwargs):
         print(args, kwargs)
-        print(f"{cls.__name__} 执行了")
+        print(f"{cls.__name__} 执行了， ImplementParentSuperClass")
         return super(ImplementParentSuperClass, cls).__new__(cls)
 
 
 class ImplementParentClass(ImplementParentSuperClass):
 
     def __new__(cls, *args, **kwargs):
-        print(f"{cls.__name__} 执行了")
+        print(f"{cls.__name__} 执行了，ImplementParentClass")
         return super(ImplementParentClass, cls).__new__(cls, *args, **kwargs)
 
     def parent_func(self):

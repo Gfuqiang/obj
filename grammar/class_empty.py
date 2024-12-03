@@ -15,7 +15,7 @@ def func1(data=empty):
 
 
 if __name__ == '__main__':
-    func1(None)
+    func1()
     # 根据对象获取类名
     em = empty()
     print(em.__class__.__name__)

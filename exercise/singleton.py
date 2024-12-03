@@ -55,13 +55,9 @@ class TestClass():
 
     @get_arguments.setter
     def get_arguments(self, value):
+        print(f'execute setter')
         self.arguments = value
 
-
-def func(d):
-    d['a'] = 10
-    d['b'] = 20
-    return d
 
 if __name__ == '__main__':
     # s1 = Singleton()
@@ -74,14 +70,9 @@ if __name__ == '__main__':
     # run(parameter)
 
     # Test
-    # t = TestClass()
-    # t.arguments = 1
-    # t.get_arguments = 10
-    # print(t._arguments)
-    # print(t.arguments)
-
-
-    d = {"a": 1, "b": 2}
-    print(id(d))
-    func(d)
-    print(id(d))
+    t = TestClass()
+    t.arguments = 1
+    # 实现@get_arguments.setter 可以使用以下赋值规则
+    t.get_arguments = 10
+    print(t._arguments)
+    print(t.arguments)

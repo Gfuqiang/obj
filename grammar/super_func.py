@@ -2,9 +2,9 @@
 python3 写法 super().__new__(cls)
 python2 写法 super(B, self).__new__(cls)
 
-super调用方法传参：
+super调用传参方式：
     1.传参根据父类方法需要的参数进行传递
-    2.如果父类直接是type new方法传入cls，init方法什么都用不传
+    2.如果父类是object(新式类不用写明继承object)。 new方法传入cls，init方法什么都用不传
 
 官网文档地址：https://docs.python.org/zh-cn/3.7/library/functions.html?highlight=super#super
 """
@@ -13,7 +13,7 @@ super调用方法传参：
 class A:
 
     def __new__(cls, *args, **kwargs):
-        if issubclass(cls, type):
+        if issubclass(cls, object):
             print(111)
         else:
             print(222)
@@ -36,12 +36,11 @@ class B(A):
         print(super())
         print(super(B))
         print(super(B, self))
+        # 继承init A有参数a 需要传入参数。
         super().__init__(1)
-
-        # super().__init__(self, a)
 
 
 if __name__ == '__main__':
     b = B()
-    b.a
+
 

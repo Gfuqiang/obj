@@ -5,39 +5,50 @@
 实现链表
 列表中放入的是node节点，节点有val和next两个属性。
 添加，删除，是否为空
+单项，双向，循环链表的实现
+https://blog.csdn.net/Yu_L2/article/details/120399755
 """
 import random
 
 
-class Linked:
+class LinkedList:
 
-    def __init__(self):
+    def __init__(self, node=None):
+        self._head = node
         self.linked = []
 
+    def is_empty(self):
+        return self._head is None
+
+    def travel(self):
+        """
+        遍历节点
+        """
+        hand = self._head
+        while hand is not None:
+            print(hand.value)
+            hand = hand.next
+
+    def length(self):
+        hand = self._head
+        count = 0
+        while hand is not None:
+            count += 1
+            hand = hand.next
+        return count
+
     def push(self, val):
-        node = Node(val)
-        if len(self.linked) == 0:
-            self.linked.append(node)
+        new_node = Node(val)
+
+        if self.is_empty():
+            self._head = new_node
         else:
-            index = len(self.linked) - 1
-            before_node = self.linked[index]
-            before_node.next = node
-            self.linked.append(node)
-
-    def pop(self, val):
-        for node in self.linked:
-            if node.value == val:
-                if node.next is None:
-                    self.linked.remove(node)
-                    return
-                after_node = node.next
-                for before_node in self.linked:
-                    if before_node == node:
-                        before_node.next = after_node
-                self.linked.remove(node)
-
-    def get_linked(self):
-        return self.linked
+            hand = self._head
+            while hand is not None:
+                if hand.next is None:
+                    hand.next = new_node
+                    break
+                hand = hand.next
 
 
 class Node:
@@ -48,14 +59,10 @@ class Node:
 
 
 if __name__ == '__main__':
-    linked = Linked()
-    list_data = [i for i in range(10)]
-    random.shuffle(list_data)
-    for i in list_data:
-        linked.push(i)
-    linked.pop(9)
-    linked_data = linked.get_linked()
-    for data in linked_data:
-        print(f"val: {data.value}  next: {data.next}")
+    link_list = LinkedList()
+    link_list.push(1)
+    link_list.push(1)
+    link_list.push(1)
+    link_list.travel()
 
 

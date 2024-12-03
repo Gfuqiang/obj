@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "obj"
+version = "0.1.0"
+description = "obj project"
+authors = ["Gou fuqiang <fuqiang6261@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+python-statemachine = { version = "*", python = ">=3.10,<3.13" }
+faker = "^23.2.1"
+langchain = "^0.2.7"
+langchain-community = "^0.2.7"
+dashscope = "^1.20.1"
+pydantic = "^2.8.2"
+pydantic-core = "^2.20.1"
+boto3 = "1.24.1"
+transitions = "^0.9.1"
+pandas = "^2.2.2"
+uwsgi = "^2.0.27"
+python-docx = "^1.1.2"
+celery = "^5.4.0"
+redis = "^5.1.1"
+gmssl = "^3.2.2"
+pipreqs = "^0.5.0"
+pyotp = "^2.9.0"
+qrcode = "^8.0"
+ldap3 = "^2.9.1"
+pymongo = "^4.10.1"
+confluent-kafka = "^2.6.0"
+cython = "^3.0.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "bfsu.edu.cn"
+url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
+priority = "default"

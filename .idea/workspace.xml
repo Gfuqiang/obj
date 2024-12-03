@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,138 +29,178 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4a573b2-612f-4955-ba0f-2a5dedee3312" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cool_pad_script/ftp_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cool_pad_script/req_cool_pad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/build_zip_file_md5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/format_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/log_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/pathlib_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/req_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/subprocess_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/subprocess_demo/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/subprocess_demo/demo1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/test_cython/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/test_cython/apiv1/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/test_cython/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/test_cython/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/unzip_big_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/unzip_dir/unzip_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/unzip_dir/zip_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/observer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/first_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/get_auther_water.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/steal_water.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftp_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftp_demo/thread_scp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/class_empty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/LRU_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/de_que.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/default_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/name_tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/order_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/collection_pack/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/data_structure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/data_structure/implement-queue-using-stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/data_structure/linked.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/data_structure/max_heap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/data_structure/que.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/data_structure/topk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/decorator_class/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/decorator_class/decorator_class_realize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/decorator_class/decorator_try_except.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/descriptor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/exception_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/func_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/md5_jiami.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/meta_class_parameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/process/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/raise_use.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/singleton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/stdout_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar/super_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matpl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matpl/base_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nmpy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nmpy/init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/base_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/images/hmbb.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/mpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_canny.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_cvt_color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_drawing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_img_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_img_threshold.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_img_transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_mouse_callback.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_trackbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/op_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/open_camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/plt_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/threshoud_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/trackbar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/unit2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opcv/unit2/read_and_writ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pg_connect_question/get_job_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pg_connect_question/write_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit_mq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit_mq/new_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit_mq/receive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit_mq/send.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/r_connetction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uwsgi_server/foobar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compute/sort/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/es_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/mq/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/mq/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/mq/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/functools_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/functools_demo/lru_cache_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/async-awite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/async-awite/get_event_loop_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/async-awite/practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/async-awite/thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/async-awite/thread_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/async-awite/yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/funy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/thread_/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/thread_/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/thread_/intensive_computer_realize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/version_grammar/3.9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/version_grammar/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/witch_keyword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/company/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/company/sm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/company/zawx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/company/zq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/get_statistic_fiel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/question/day1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/question/day2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/question/day3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/question/day4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/reversal_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/statistic_file/big_file_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/test_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_question/yield_read_big_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkapy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkapy/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkapy/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/get_sub_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio_demo/client_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/quick_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_langchain/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_langchain/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/create_dataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/read_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/test_grammer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/update_excel_cell_formate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/write_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdpy/网络关系模版.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/celery_study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/celery_study/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/celery_study/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/handle_word_file/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/handle_word_file/python_docx_pkg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/rabbit_mq/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/rabbit_mq/rpc_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/rabbit_mq/rpc_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/redis_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/redis_demo/queue_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/uwsgi_server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productivity/uwsgi_server/foobar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rubbish/cool_pad_script/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rubbish/fs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rubbish/ftp_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/ldap_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/mfa_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_class/register_type_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_class/type_cls_validate_subclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/obj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/obj.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-awite/asynbc_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/async-awite/asynbc_demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-awite/async_run_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/async-awite/async_run_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/list_cut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo__get__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo__get__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo_func.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/flow_8035_inner_2_1_3ocr-0.70240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/hellow.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/push_share_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/image_thumb.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/image_thumb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/meta_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/meta_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/myapp.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/s_name.session" beforeDir="false" afterPath="$PROJECT_DIR$/demo/s_name.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/super_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/super_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test_log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test_network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/adapter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/demo1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/func_overlie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excute_rq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loogers_demo/log_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/loogers_demo/log_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loogers_demo/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/loogers_demo/test_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love_data_structure/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/async-awite/get_event_loop_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love_data_structure/flibo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/love_data_structure/linked_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pg_connect_question/get_device_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/filename.txt" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/filename.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/fork_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/fork_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/itchat.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/multiprocessing_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/multiprocessing_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/process_file_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/process/process_file_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_grammar/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cool_pad_script/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_grammar/metaclass_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/metaclass_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_grammar/type_grammmar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/type_grammmar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bluck_execute_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ql/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ql/push_cfd_code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/compress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_zip_file/demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/asynbc_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/async-awite/asynbc_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/async_run_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/async-awite/async_run_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/bukl_create_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/async-awite/bukl_create_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/buy_potato.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/async-awite/buy_potato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/get_event_loop_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/practice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gmssl_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/practice/demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/practice/ping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/test_futures_obj.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/async-awite/test_futures_obj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/thread_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-awite/yield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_study/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gmssl_demo/gm_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_study/c_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/celery_study/c_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_study/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/nmap_demo/nmap_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_study/execute.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/celery_study/execute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_study/run_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/celery_study/run_tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celery_study/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/celery_study/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/sort/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/compute/sort/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/sort/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/sort/fast.py" beforeDir="false" afterPath="$PROJECT_DIR$/compute/sort/choose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/sort/insertsort.py" beforeDir="false" afterPath="$PROJECT_DIR$/compute/sort/insertsort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/sort/mergesort.py" beforeDir="false" afterPath="$PROJECT_DIR$/compute/sort/mergesort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool_pad_script/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/grammer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool_pad_script/ftp_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/cool_pad_script/ftp_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool_pad_script/req_cool_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/cool_pad_script/req_cool_pad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/bluck_execute_sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/build_zip_file_md5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo__get__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/export.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/flow_7546_6_6ocr-0.62224.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/format_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/image_thumb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/list_cut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/log_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/meta_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pathlib_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/property_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/push_share_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/utils/push_share_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/req_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/s_name.session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/sort_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/subprocess_demo/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/subprocess_demo/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/subprocess_demo/demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/super_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/unzip_big_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/utils/unzip_big_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/unzip_dir/zip_file_dir/job-export-2022-06-21-09_46_42-1/inner_job/回到主页-微信/发现/-5_-16_referImgFile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/my_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/nmap_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/job-285435d1-dcd5-9116-af8a-25857f5989f3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/shell_returen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/shell_returen.py.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/test_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/zipfile_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/rsa/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs/first_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/fs/first_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs/get_auther_water.py" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/fs/get_auther_water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs/steal_water.py" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/fs/steal_water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/rsa/rsa_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp_demo/ftp/download/data/ftp/data/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/ftp_demo/ftp/download/data/ftp/data/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp_demo/scp_dir/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp_demo/thread_scp.py" beforeDir="false" afterPath="$PROJECT_DIR$/rubbish/ftp_demo/thread_scp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/class_empty.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/class_empty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/data_structure/linked.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/data_structure/linked.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/decorator_class/decorator_class_realize.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/decorator_class/decorator_class_realize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/descriptor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/exception_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/func_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/functools_pack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/md5_jiami.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/meta_class_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/meta_class_parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/metaclass_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/raise_use.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/stdout_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/funy/print_progress_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/super_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/super_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/type_grammmar.py" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/type_grammmar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matpl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/unzip_dir/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matpl/base_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmpy/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/nmpy/init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pg_connect_question/write_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit_mq/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit_mq/new_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/rabbit_mq/new_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit_mq/receive.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/rabbit_mq/receive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit_mq/send.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/rabbit_mq/send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/utils/gen_file_base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_demo/r_connetction.py" beforeDir="false" afterPath="$PROJECT_DIR$/productivity/redis_demo/r_connetction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/watch.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/watch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi_server/foobar.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,21 +241,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/.conda/envs/obj/lib/python3.7/site-packages/Cython/Build/Dependencies.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/demo/export.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/demo/list_cut.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/demo/super_demo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/typing.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/demo/demo.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/demo/test_cython/__init__.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/demo/test_cython/apiv1/util.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/demo/test_cython/main.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/demo/test_cython/setup.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/es/es_demo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/grammar/functools_pack.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/interview_question/test_collections.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nmpy/init.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/opcv/op_canny.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/opcv/trackbar.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pdpy/create_dataframe.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pdpy/update_excel_cell_formate.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pdpy/write_excel.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="1hqan0iFGPAevBClgSdKcE8gKx4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -220,38 +274,52 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.gen_file_base64.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/fq/Desktop/work/obj&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdpy" />
       <recent name="$PROJECT_DIR$/opcv/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cool_pad_script" />
-      <recent name="$PROJECT_DIR$/demo/test_cython" />
-      <recent name="$PROJECT_DIR$/demo/test_cython/demo/test_cython" />
-      <recent name="$PROJECT_DIR$/demo" />
-      <recent name="$PROJECT_DIR$/demo/test_cython/demo/test_cython/apiv1" />
+      <recent name="$PROJECT_DIR$/productivity" />
+      <recent name="$PROJECT_DIR$/demo/utils" />
+      <recent name="$PROJECT_DIR$/demo/grammer" />
+      <recent name="$PROJECT_DIR$/demo/resouce_files" />
+      <recent name="$PROJECT_DIR$/grammar" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.thread_scp">
-    <configuration name="ftp_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.gen_file_base64">
+    <configuration name="3.9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="obj" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ftp_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grammar/version_grammar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cool_pad_script/ftp_test.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar/version_grammar/3.9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,19 +328,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="push_share_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gen_file_base64" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="obj" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/push_share_code.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/utils/gen_file_base64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,19 +351,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="r_connetction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_statistic_fiel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="obj" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/redis_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_question" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_demo/r_connetction.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_question/get_statistic_fiel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,19 +374,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="thread_scp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gm_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="obj" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ftp_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/gmssl_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ftp_demo/thread_scp.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/gmssl_demo/gm_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +397,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="write_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="thread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="obj" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pg_connect_question" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/grammar/async-awite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pg_connect_question/write_file.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grammar/async-awite/thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,21 +421,29 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ftp_test" />
-      <item itemvalue="Python.r_connetction" />
-      <item itemvalue="Python.thread_scp" />
-      <item itemvalue="Python.write_file" />
-      <item itemvalue="Python.push_share_code" />
+      <item itemvalue="Python.3.9" />
+      <item itemvalue="Python.gen_file_base64" />
+      <item itemvalue="Python.get_statistic_fiel" />
+      <item itemvalue="Python.gm_test" />
+      <item itemvalue="Python.thread" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.thread_scp" />
-        <item itemvalue="Python.push_share_code" />
-        <item itemvalue="Python.ftp_test" />
-        <item itemvalue="Python.r_connetction" />
-        <item itemvalue="Python.write_file" />
+        <item itemvalue="Python.gen_file_base64" />
+        <item itemvalue="Python.get_statistic_fiel" />
+        <item itemvalue="Python.3.9" />
+        <item itemvalue="Python.thread" />
+        <item itemvalue="Python.gm_test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
@@ -427,11 +511,39 @@
       <workItem from="1652667675294" duration="838000" />
       <workItem from="1654154026271" duration="4354000" />
       <workItem from="1654496649337" duration="4051000" />
+      <workItem from="1709112554561" duration="7919000" />
+      <workItem from="1709810268300" duration="6933000" />
+      <workItem from="1710915244176" duration="629000" />
+      <workItem from="1711006868433" duration="14309000" />
+      <workItem from="1712542728144" duration="5573000" />
+      <workItem from="1714984689460" duration="12105000" />
+      <workItem from="1721008944414" duration="5118000" />
+      <workItem from="1721632478108" duration="13563000" />
+      <workItem from="1722936005398" duration="6390000" />
+      <workItem from="1725883025718" duration="7035000" />
+      <workItem from="1726646692246" duration="1263000" />
+      <workItem from="1726710518706" duration="14192000" />
+      <workItem from="1728386890936" duration="1945000" />
+      <workItem from="1728438356514" duration="26037000" />
+      <workItem from="1730085306696" duration="12658000" />
+      <workItem from="1730444880874" duration="2586000" />
+      <workItem from="1731489462210" duration="2808000" />
+      <workItem from="1732095322916" duration="658000" />
+      <workItem from="1732154027061" duration="2440000" />
+      <workItem from="1732270669880" duration="130000" />
+      <workItem from="1732271054926" duration="305000" />
+      <workItem from="1732520949883" duration="3472000" />
+      <workItem from="1732611580124" duration="2179000" />
+      <workItem from="1732614907330" duration="2603000" />
+      <workItem from="1732679563689" duration="282000" />
+      <workItem from="1732760578921" duration="756000" />
+      <workItem from="1732761592664" duration="20000" />
+      <workItem from="1732761793185" duration="815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -494,24 +606,19 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/async-awite/test_futures_obj.py</url>
+          <url>file://$PROJECT_DIR$/grammar/async-awite/test_futures_obj.py</url>
           <line>14</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/async-awite/thread_pool.py</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/grammar/async-awite/thread_pool.py</url>
+          <line>14</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/compute/sort/mergesort.py</url>
           <line>14</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/compute/sort/demo.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test_zip_file/zpi_file.py</url>
@@ -549,16 +656,6 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo/list_cut.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo/list_cut.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test_zip_file/test_append_file_to_zip.py</url>
           <line>84</line>
           <option name="timeStamp" value="37" />
@@ -569,12 +666,12 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/celery_study/execute.py</url>
+          <url>file://$PROJECT_DIR$/productivity/celery_study/execute.py</url>
           <line>9</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo/demo__get__.py</url>
+          <url>file://$PROJECT_DIR$/demo/grammer/demo__get__.py</url>
           <line>36</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
@@ -599,11 +696,6 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo/build_zip_file_md5.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/grammar/decorator_class/decorator_try_except.py</url>
           <line>9</line>
           <option name="timeStamp" value="56" />
@@ -620,18 +712,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/demo/subprocess_demo/demo.py</url>
-          <line>30</line>
+          <line>19</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/demo/unzip_dir/zip_file.py</url>
           <line>8</line>
           <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo/log_demo.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.conda/envs/obj/lib/python3.7/logging/__init__.py</url>
@@ -644,17 +731,17 @@
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo/push_share_code.py</url>
+          <url>file://$PROJECT_DIR$/demo/utils/push_share_code.py</url>
           <line>42</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cool_pad_script/req_cool_pad.py</url>
+          <url>file://$PROJECT_DIR$/rubbish/cool_pad_script/req_cool_pad.py</url>
           <line>111</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cool_pad_script/req_cool_pad.py</url>
+          <url>file://$PROJECT_DIR$/rubbish/cool_pad_script/req_cool_pad.py</url>
           <line>61</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
@@ -674,14 +761,9 @@
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rabbit_mq/receive.py</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/productivity/rabbit_mq/receive.py</url>
+          <line>13</line>
           <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/grammar/data_structure/linked.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/grammar/data_structure/max_heap.py</url>
@@ -694,29 +776,114 @@
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/async-awite/get_event_loop_demo.py</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/grammar/async-awite/get_event_loop_demo.py</url>
+          <line>22</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cool_pad_script/ftp_test.py</url>
+          <url>file://$PROJECT_DIR$/rubbish/cool_pad_script/ftp_test.py</url>
           <line>132</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cool_pad_script/ftp_test.py</url>
+          <url>file://$PROJECT_DIR$/rubbish/cool_pad_script/ftp_test.py</url>
           <line>122</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cool_pad_script/ftp_test.py</url>
+          <url>file://$PROJECT_DIR$/rubbish/cool_pad_script/ftp_test.py</url>
           <line>34</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cool_pad_script/ftp_test.py</url>
+          <url>file://$PROJECT_DIR$/rubbish/cool_pad_script/ftp_test.py</url>
           <line>199</line>
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/productivity/redis_demo/queue_demo.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/productivity/rabbit_mq/receive.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pdpy/update_excel_cell_formate.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/grammar/async-awite/yield.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/grammar/async-awite/yield.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_question/yield_read_big_file.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/demo.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/demo.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/demo.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_question/question/day1.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_question/question/day3.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/unzip_dir/demo1.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pdpy/read_excel.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/type_class/register_type_class.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/demo.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/demo.py</url>
+          <line>242</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/type_class/register_type_class.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -727,6 +894,39 @@
         <watch expression="record.created" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/obj$client_test.coverage" NAME="client_test Coverage Results" MODIFIED="1721992676881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/minio_demo" />
+    <SUITE FILE_PATH="coverage/obj$builder.coverage" NAME="builder Coverage Results" MODIFIED="1709812753475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design_pattern" />
+    <SUITE FILE_PATH="coverage/obj$meta_demo.coverage" NAME="meta_demo Coverage Results" MODIFIED="1728964462157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/obj$main.coverage" NAME="main Coverage Results" MODIFIED="1721010666310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Library/Caches/pypoetry/virtualenvs/obj-uBuTJwzZ-py3.10/lib/python3.10/site-packages/pydantic" />
+    <SUITE FILE_PATH="coverage/obj$demo__get__.coverage" NAME="demo__get__ Coverage Results" MODIFIED="1728964055172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/grammer" />
+    <SUITE FILE_PATH="coverage/obj$gen_file_base64.coverage" NAME="gen_file_base64 Coverage Results" MODIFIED="1732615105877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/utils" />
+    <SUITE FILE_PATH="coverage/obj$type_cls_validate_subclass.coverage" NAME="type_cls_validate_subclass Coverage Results" MODIFIED="1712046517170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/type_class" />
+    <SUITE FILE_PATH="coverage/obj$celery.coverage" NAME="celery Coverage Results" MODIFIED="1728984384760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/productivity/celery_study" />
+    <SUITE FILE_PATH="coverage/obj$get_statistic_fiel.coverage" NAME="get_statistic_fiel Coverage Results" MODIFIED="1732095370206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_question" />
+    <SUITE FILE_PATH="coverage/obj$demo.coverage" NAME="demo Coverage Results" MODIFIED="1729223749739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/obj$run_tasks.coverage" NAME="run_tasks Coverage Results" MODIFIED="1728983681689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/productivity/celery_study" />
+    <SUITE FILE_PATH="coverage/obj$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1728974133147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/obj$register_type_class.coverage" NAME="register_type_class Coverage Results" MODIFIED="1728976500902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/type_class" />
+    <SUITE FILE_PATH="coverage/obj$gm_test.coverage" NAME="gm_test Coverage Results" MODIFIED="1730087159805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/gmssl_demo" />
+    <SUITE FILE_PATH="coverage/obj$intensive_computer_realize.coverage" NAME="intensive_computer_realize Coverage Results" MODIFIED="1712736634922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar/thread_" />
+    <SUITE FILE_PATH="coverage/obj$super_func.coverage" NAME="super_func Coverage Results" MODIFIED="1728975452863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/obj$state.coverage" NAME="state Coverage Results" MODIFIED="1729236555501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/design_pattern" />
+    <SUITE FILE_PATH="coverage/obj$pathlib_demo.coverage" NAME="pathlib_demo Coverage Results" MODIFIED="1728972395351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/obj$class_empty.coverage" NAME="class_empty Coverage Results" MODIFIED="1728975263008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/obj$thread.coverage" NAME="thread Coverage Results" MODIFIED="1730106898130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar/async-awite" />
+    <SUITE FILE_PATH="coverage/obj$3_9.coverage" NAME="3.9 Coverage Results" MODIFIED="1730191959839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar/version_grammar" />
+    <SUITE FILE_PATH="coverage/obj$c_demo1.coverage" NAME="c_demo1 Coverage Results" MODIFIED="1728983612492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/productivity/celery_study" />
+    <SUITE FILE_PATH="coverage/obj$md5_jiami.coverage" NAME="md5_jiami Coverage Results" MODIFIED="1728975087915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/obj$foobar.coverage" NAME="foobar Coverage Results" MODIFIED="1728976729634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uwsgi_server" />
+    <SUITE FILE_PATH="coverage/obj$property_demo.coverage" NAME="property_demo Coverage Results" MODIFIED="1728972478463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/obj$example.coverage" NAME="example Coverage Results" MODIFIED="1716971261081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar/thread_" />
+    <SUITE FILE_PATH="coverage/obj$witch_keyword.coverage" NAME="witch_keyword Coverage Results" MODIFIED="1716964876911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/obj$functools_pack.coverage" NAME="functools_pack Coverage Results" MODIFIED="1728975149052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar" />
+    <SUITE FILE_PATH="coverage/obj$singleton.coverage" NAME="singleton Coverage Results" MODIFIED="1728974918505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
+    <SUITE FILE_PATH="coverage/obj$decorator_class_realize.coverage" NAME="decorator_class_realize Coverage Results" MODIFIED="1712049330033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grammar/decorator_class" />
+    <SUITE FILE_PATH="coverage/obj$lru_cache_demo.coverage" NAME="lru_cache_demo Coverage Results" MODIFIED="1721987902830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/functools_demo" />
   </component>
   <component name="regexState">
     <option name="map">

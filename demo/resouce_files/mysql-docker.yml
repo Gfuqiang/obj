@@ -1,0 +1,17 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+  postgresql:
+    container_name: test_mysql
+    image: registry.intra.zhiqiansec.net/library/amd64/mysql@sha256:4b6c4935195233bc10b617df3cc725a9ddd5a7f10351a7bf573bea0b5ded7649
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: scmdb_plt_backend
+      MYSQL_USER: scmdb
+      MYSQL_PASSWORD: ScpkHs7#99@87jyhcc
+    volumes:
+      - "${SCMDB_PREFIX}/datas/mysql/conf/:/etc/mysql/conf.d"
+    ports:
+      - "3309:3306"
