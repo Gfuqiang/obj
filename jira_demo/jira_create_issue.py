@@ -54,7 +54,7 @@ class JiraClient:
 
 
 if __name__ == '__main__':
-    server = 'http://jira.instra.zhiqiansec.net/'
-    token_auth = 'MzY1MjAxMTA1Mzc5Oqq0cXUA6cxeK+acE4MGKGW9RM5F'
+    server = ''
+    token_auth = ''
     jira_cli = JiraClient(server, token_auth)
     jira_cli.add_attachment()
