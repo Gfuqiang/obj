@@ -10,6 +10,7 @@ class S3Client:
 
     def init_client(self):
         endpoint_url = 'http://s3.scmdb-inc.cn:19000'
+        # endpoint_url = 'http://10.100.7.2:19000'
         access_key_id = 'ncJN2vsdpKGS'
         access_secret_access_key = 'LSuob2YF64ftGAhxQKMV35wv1nqiEH8a'
         _session = Session(

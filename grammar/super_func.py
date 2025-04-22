@@ -5,6 +5,7 @@ python2 写法 super(B, self).__new__(cls)
 super调用传参方式：
     1.传参根据父类方法需要的参数进行传递
     2.如果父类是object(新式类不用写明继承object)。 new方法传入cls，init方法什么都用不传
+    3.多继承中使用super 调用顺序是根据 orm 进行调用，不是我们代码中的继承顺序，下边的 C,F类举例说明了。
 
 官网文档地址：https://docs.python.org/zh-cn/3.7/library/functions.html?highlight=super#super
 """
@@ -40,7 +41,31 @@ class B(A):
         super().__init__(1)
 
 
+class F:
+    def greet(self):
+        print('hello F')
+
+class C(F):
+    def greet(self):
+        # super().greet()
+        print('hello C')
+
+class D(F):
+    def greet(self):
+        super().greet()
+        print('hello D')
+
+class E(D, C):
+    def greet(self):
+        super(C, self).greet()
+        print('hello E')
+
+
 if __name__ == '__main__':
-    b = B()
+    # b = B()
+    print(E.mro())
+    e = E()
+    e.greet()
+
 
 

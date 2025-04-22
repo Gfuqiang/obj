@@ -1,5 +1,6 @@
 import collections
 import copy
+import datetime
 import json
 import os
 import pprint
@@ -11,6 +12,7 @@ from functools import reduce
 from pathlib import Path
 
 import pandas as pd
+import validators
 
 
 def decorator(func):
@@ -274,7 +276,6 @@ def multithread_test():
         # print(future.result())
 
 TERM = os.getenv('TERM', '')
-print(f'{TERM}')
 IS_ANSI_TERMINAL = TERM in (
     'eterm-color',
     'linux',
@@ -353,8 +354,48 @@ def duplicate_removal():
     new_df = df.drop_duplicates()
     print_error_msg(new_df)
 
+def is_valid_domain(domain):
+    try:
+        ret = validators.domain(domain, consider_tld=True)
+        if ret is True:
+            return True
+    except Exception as e:
+        ...
+    return False
+
+def generate_func(one):
+    # if one == 1:
+    #     yield
+    return
+    for index, i in enumerate(range(10)):
+        if index == 2:
+            return
+        yield i
+
+def generate_main():
+    yield from generate_func(2)
+
+
+def custom_json_serializer():
+    data = {
+        "name": "Tom",
+        "data": datetime.datetime.now()
+    }
+
+    def date_serializer(obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.strftime("%Y-%m-%d")
+        return TypeError("type not serializable")
+
+    json_data = json.dumps(data, default=date_serializer)
+    print(json_data)
+
+
 
 if __name__ == '__main__':
     # print_error_msg('error message')
-    duplicate_removal()
+    # duplicate_removal()
+    # print(is_valid_domain('domain.com.cn'))
+    custom_json_serializer()
+
 

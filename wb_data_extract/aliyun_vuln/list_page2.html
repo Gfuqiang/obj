@@ -1,0 +1,1403 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Aliyun Vulnerability Database">
+
+    <title>阿里云漏洞库</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/skybox.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/bootstrap-icons-1.2.2/font/bootstrap-icons.css">
+    <script src="/static/js/jquery.slim.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <style>
+        #main .container {
+            min-width: 1300px;
+        }
+
+        #main .attr-item:nth-child(2) {
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        .product-box > div {
+            word-break: break-all;
+        }
+
+        .bs-tooltip-right > .tooltip-inner {
+            min-width: 300px;
+        }
+
+        .popover {
+            max-width: 100%; /* Max Width of the popover (depending on the container!) */
+        }
+    </style>
+</head>
+<body>
+
+
+<header class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand pl-2 pl-md-4 pr-2" href="/" style="padding: 0;">
+            <img src="/static/img/aliyun-code.png" height="30px" style="margin-bottom: 4px;">
+            <span style="font-size: 24px; font-weight: 500; padding-left: 5px;">
+
+                        阿里云漏洞库
+
+                </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-target="#navbarsExampleDefault" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+
+                    <a class="nav-link active" href="/high-risk/list">高危漏洞</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link " href="/nvd/list">CVE 漏洞库</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link " href="/nonvd/list">非CVE漏洞库</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link " href="https://xz.aliyun.com/" target="_blank">安全社区</a>
+
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="/search" method="get">
+                <input class="form-control mr-sm-2" type="search" name="q" value=""
+                       placeholder="搜索漏洞"
+                       aria-label="Search" autocomplete="off" style="width: 240px;">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">搜索</button>
+            </form>
+        </div>
+    </nav>
+
+</header>
+
+<style>
+
+    a {
+        color: #4b45a1;
+    }
+
+    a:hover {
+        color: #4b45a1;
+        text-decoration: underline;
+    }
+
+    .header__content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90rem
+    }
+
+    .header__title {
+        font-variant: common-ligatures proportional-nums;
+        font-weight: 500;
+        line-height: 1;
+        text-rendering: optimizeLegibility;
+        margin-bottom: .5rem
+    }
+
+    .header__title {
+        font-size: 36px
+    }
+
+    .header__lede {
+        font-variant: common-ligatures proportional-nums;
+        font-weight: 400;
+        line-height: 1.25;
+        text-rendering: optimizeLegibility;
+        margin-bottom: 0
+    }
+
+    .header__lede {
+        font-size: 20px
+    }
+
+    .table th {
+        border-top: 0px solid #dee2e6;
+    }
+
+    .btn-bd-primary {
+        font-weight: 400;
+        color: #0056b3;
+        border-radius: 15px;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #4b4f54;
+    }
+
+</style>
+<main role="main">
+
+    <div class="album py-4" id="itl-header">
+        <div class="container vuln-list-container">
+
+            <div class="header__content">
+                <div class="header__text">
+                    <h1 class="header__title ">高危漏洞库</h1>
+                    <div class="header__lede">阿里云安全专家专业评估分析，帮助客户精准研判高危风险漏洞。</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="py-3 bg-light">
+        <div class="container vuln-list-container">
+
+
+            <div class="py-3">
+                <div class="d-flex justify-content-between align-items-center">
+
+
+                    <a class="px-3 btn btn-sm btn-outline-secondary btn-bd-primary " href="?page=1"> « 上一页 </a>
+                    <span class="text-muted" style="text-overflow: ellipsis;white-space: nowrap;
+  overflow: hidden;">第 2 页 / 49 页  •  总计 1467 条记录</span>
+                    <a class="px-3 btn btn-sm btn-outline-secondary btn-bd-primary " href="?page=3"> 下一页 » </a>
+                </div>
+            </div>
+
+
+            <div class="my-3 px-3 pt-2 bg-white rounded shadow-sm table-responsive">
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col" style="width: 180px;" nowrap="nowrap">AVD编号</th>
+                        <th scope="col" style="width: 60%;" nowrap="nowrap">漏洞名称</th>
+                        <th scope="col" nowrap="nowrap">漏洞类型</th>
+                        <th scope="col" style="width: 120px;" nowrap="nowrap">披露时间</th>
+                        <th scope="col" nowrap="nowrap">漏洞状态</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-49442" target="_blank">
+                                AVD-2023-49442
+                            </a></td>
+                        <td>Jeecg jeecgFormDemoController JNDI代码执行漏洞（CVE-2023-49442）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2024-01-04
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-49442">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-51467" target="_blank">
+                                AVD-2023-51467
+                            </a></td>
+                        <td>Apache OFBiz groovy 远程代码执行漏洞（CVE-2023-51467）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="服务端请求伪造（SSRF）">
+                                CWE-918
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-26
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-51467">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-50968" target="_blank">
+                                AVD-2023-50968
+                            </a></td>
+                        <td>Apache OFBiz 任意文件属性读取与SSRF漏洞（CVE-2023-50968）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="信息暴露">
+                                CWE-200
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-26
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-50968">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-32725" target="_blank">
+                                AVD-2023-32725
+                            </a></td>
+                        <td>Zabbix Server session 泄漏漏洞（CVE-2023-32725）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="在信任Cookie未进行验证与完整性检查">
+                                CWE-565
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-18
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-32725">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-46279" target="_blank">
+                                AVD-2023-46279
+                            </a></td>
+                        <td>Apache Dubbo 反序列化漏洞（CVE-2023-46279）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-15
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-46279">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-29234" target="_blank">
+                                AVD-2023-29234
+                            </a></td>
+                        <td>Apache Dubbo 反序列化漏洞（CVE-2023-29234）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-15
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-29234">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1700953" target="_blank">
+                                AVD-2023-1700953
+                            </a></td>
+                        <td>亿赛通电子文档安全管理系统 dlUltrasec 文件读取漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm">
+                                未定义
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-12
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1700750" target="_blank">
+                                AVD-2023-1700750
+                            </a></td>
+                        <td>亿赛通电子文档安全管理系统 uploadFile 文件上传漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="危险类型文件的不加限制上传">
+                                CWE-434
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-12
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1700015" target="_blank">
+                                AVD-2023-1700015
+                            </a></td>
+                        <td>WordPress 6.4.0 ~ 6.4.1 WP_HTML_Token 反序列化漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-11
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1699693" target="_blank">
+                                AVD-2023-1699693
+                            </a></td>
+                        <td>亿赛通电子文档安全管理系统代码执行漏洞（CNVD-2023-59457）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm">
+                                未定义
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-08
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-22522" target="_blank">
+                                AVD-2023-22522
+                            </a></td>
+                        <td>Atlassian Confluence 模板注入代码执行漏洞（CVE-2023-22522）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="输出中的特殊元素转义处理不恰当（注入）">
+                                CWE-74
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-06
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-22522">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-49070" target="_blank">
+                                AVD-2023-49070
+                            </a></td>
+                        <td>Apache Ofbiz xmlrpc 代码执行漏洞（CVE-2023-49070）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="对生成代码的控制不恰当（代码注入）">
+                                CWE-94
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-04
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-49070">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-50164" target="_blank">
+                                AVD-2023-50164
+                            </a></td>
+                        <td>Apache Struts2 目录遍历漏洞（CVE-2023-50164）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="对路径名的限制不恰当（路径遍历）">
+                                CWE-22
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-12-04
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-50164">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2022-41678" target="_blank">
+                                AVD-2022-41678
+                            </a></td>
+                        <td>Apache ActiveMQ jolokia 代码执行漏洞（CVE-2022-41678）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-29
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2022-41678">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-49103" target="_blank">
+                                AVD-2023-49103
+                            </a></td>
+                        <td>OwnCloud 敏感信息泄漏漏洞（CVE-2023-49103）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="信息暴露">
+                                CWE-200
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-22
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-49103">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-49105" target="_blank">
+                                AVD-2023-49105
+                            </a></td>
+                        <td>OwnCloud webdav 权限绕过致代码执行漏洞（CVE-2023-49105）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="认证机制不恰当">
+                                CWE-287
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-22
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-49105">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1697088" target="_blank">
+                                AVD-2023-1697088
+                            </a></td>
+                        <td>I Doc View 任意文件上传漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="危险类型文件的不加限制上传">
+                                CWE-434
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-21
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-43177" target="_blank">
+                                AVD-2023-43177
+                            </a></td>
+                        <td>CrushFTP 远程代码执行漏洞（CVE-2023-43177）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="动态管理代码资源的控制不恰当">
+                                CWE-913
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-18
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-43177">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-46214" target="_blank">
+                                AVD-2023-46214
+                            </a></td>
+                        <td>Splunk Enterprise XML Parsing 远程代码执行漏洞（CVE-2023-46214）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="XML注入（XPath盲注）">
+                                CWE-91
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-17
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-46214">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1696209" target="_blank">
+                                AVD-2023-1696209
+                            </a></td>
+                        <td>Kingdee K3ERP 文件上传漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="危险类型文件的不加限制上传">
+                                CWE-434
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-14
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1695055" target="_blank">
+                                AVD-2023-1695055
+                            </a></td>
+                        <td>IP-guard WebServer 远程命令执行漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="在命令中使用的特殊元素转义处理不恰当（命令注入）">
+                                CWE-77
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-08
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-47248" target="_blank">
+                                AVD-2023-47248
+                            </a></td>
+                        <td>Apache Arrow PyArrow 任意代码执行（CVE-2023-47248）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-04
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-47248">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1699252" target="_blank">
+                                AVD-2023-1699252
+                            </a></td>
+                        <td>Yongyou U8cloud FileTransportServlet 反序列化代码执行漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-03
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1689266" target="_blank">
+                                AVD-2023-1689266
+                            </a></td>
+                        <td>Thorn SFTP Gateway 远程代码执行漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-11-03
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-22518" target="_blank">
+                                AVD-2023-22518
+                            </a></td>
+                        <td>Atlassian Confluence 权限绕过致代码执行漏洞（CVE-2023-22518）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="授权机制不正确">
+                                CWE-863
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-10-31
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-22518">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-primary btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="POC 已公开">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-46747" target="_blank">
+                                AVD-2023-46747
+                            </a></td>
+                        <td>F5 BIG-IP TMUI 远程代码执行漏洞（CVE-2023-46747）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="使用候选路径或通道进行的认证绕过">
+                                CWE-288
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-10-27
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-46747">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1699235" target="_blank">
+                                AVD-2023-1699235
+                            </a></td>
+                        <td>Yongyou U8cloud CacheInvokeServlet 反序列化代码执行漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-10-27
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-43208" target="_blank">
+                                AVD-2023-43208
+                            </a></td>
+                        <td>NextGen Mirth Connect 远程代码执行漏洞（CVE-2023-43208）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm">
+                                未定义
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-10-26
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-43208">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1687513" target="_blank">
+                                AVD-2023-1687513
+                            </a></td>
+                        <td>Apache ActiveMQ远程代码执行漏洞（CVE-2023-46604）</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm"
+                                    data-container="body"
+                                    data-toggle="tooltip" data-placement="top"
+                                    title="可信数据的反序列化">
+                                CWE-502
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-10-25
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-info btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="CVE-2023-46604">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-outline-warning btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="EXP 已公开">EXP
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td nowrap="nowrap">
+                            <a href="/detail?id=AVD-2023-1687472" target="_blank">
+                                AVD-2023-1687472
+                            </a></td>
+                        <td>Apache Solr 集群模式Schema Designer 代码执行漏洞</td>
+                        <td nowrap="nowrap">
+
+                            <button type="button" nowrap="nowrap" class="btn btn-outline-secondary btn-sm">
+                                未定义
+                            </button>
+
+                        </td>
+                        <td nowrap="nowrap">
+
+                            2023-10-23
+
+                        </td>
+                        <td nowrap="nowrap">
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="无CVE">CVE
+                            </button>
+
+                            <!--                            -->
+
+                            <button type="button" class="btn  btn-light btn-sm" data-toggle="tooltip"
+                                    data-placement="top"
+                                    title="暂无可利用代码">PoC
+                            </button>
+
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+
+            <div class="d-flex py-3 justify-content-between align-items-center">
+
+
+                <a class="px-3 btn btn-sm btn-outline-secondary btn-bd-primary " href="?page=1"> « 上一页 </a>
+                <span class="text-muted" style="text-overflow: ellipsis;white-space: nowrap;
+  overflow: hidden;">第 2 页 / 49 页  •  总计 1467 条记录</span>
+                <a class="px-3 btn btn-sm btn-outline-secondary btn-bd-primary " href="?page=3"> 下一页 » </a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</main>
+
+
+<footer class="text-muted bg-dark">
+
+    <div class="px-sm-5 px-3">
+        <p class="float-right">
+            <a class="btn" href="#">回到顶部</a>
+        </p>
+        <p id="footer" style="padding-bottom:10px; border-bottom: 1px solid #595959;">
+            <a class="btn pl-0" href="/about">联系我们</a>
+            <a class="btn" href="/policy">
+                披露原则
+            </a>
+
+        </p>
+        <p class="pt-2"><!-- -->2024<!-- --> Alibaba Cloud Security Team. All Rights Reserved. NVDB备-20230014号.</p>
+    </div>
+
+</footer>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+</script>
+
+</body>
+</html>
